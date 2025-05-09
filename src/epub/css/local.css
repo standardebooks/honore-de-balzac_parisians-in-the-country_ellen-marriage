@@ -244,21 +244,25 @@ footer{
 /* end of letters */
 
 /* poem/verse/song */
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
+[epub|type~="z3998:poem"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
@@ -279,3 +283,41 @@ span.elision{
 	margin-left: 3em;
 }
 /* end of poem/verse/song */
+
+/* custom */
+blockquote:not([class]):not([epub|type]):nth-of-type(3),
+blockquote:not([class]):not([epub|type]):nth-of-type(4),
+blockquote.left-page,
+blockquote.right-page{
+	margin-inline: 5em;
+	text-align: justify;
+}
+
+blockquote.left-page header,
+blockquote.right-page header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+blockquote.left-page header span{
+	float: left;
+}
+
+blockquote.right-page header span{
+	float: right;
+}
+
+blockquote.left-page:nth-of-type(2) > p:first-of-type,
+blockquote.left-page:nth-of-type(3) > p:first-of-type,
+blockquote.left-page:nth-of-type(4) > p:first-of-type,
+blockquote.right-page:first-of-type > p:first-of-type,
+blockquote.right-page:nth-of-type(4) > p:first-of-type{
+	text-indent: 1em;
+}
+
+blockquote:not([class]):not([epub|type]):nth-of-type(5),
+blockquote:not([class]):not([epub|type]):nth-of-type(6){
+	font-style: italic;
+}
+
+/* end of custom */
