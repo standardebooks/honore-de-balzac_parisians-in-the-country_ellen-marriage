@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="content.opf">
+		<ignore>
+			<code>m-079</code>
+			<reason>Although the stories are unrelated and were initially published separately, they are not a collection in the traditional sense of the word.</reason>
+		</ignore>
+	</file>
+	<file path="gaudissart-the-great.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>The name of the magazine is Children’s.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
