@@ -53,7 +53,8 @@
 		<dc:source>https://archive.org/details/worksofhonorde30balzuoft</dc:source>
 		<!-- transcriptions (The Muse of the Department only) -->
 		<dc:source>https://www.gutenberg.org/ebooks/1912</dc:source>
-		<meta property="se:production-notes">The translators listed in the scans are Ellen Marriage and James Waring, but the latter is a pseudonym for the former, so only Marriage's name is used as translator in this edition.</meta>
+		<meta property="se:production-notes">The translators listed in the scans are Ellen Marriage and James Waring, but the latter is a pseudonym for the former, so only Marriage's name is used as translator in this edition.
+		The "book within a book" has exaggerated margins in the scans, and is therefore formatted with 25% left/right margins (using a fixed em margin didn't work for smaller screens, e.g. phones).</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/honore-de-balzac_parisians-in-the-country_ellen-marriage</meta>
