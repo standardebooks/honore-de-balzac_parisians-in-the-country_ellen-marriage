@@ -39,9 +39,11 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Provincial Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Two stories of Parisians and their experiences with French provincials.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Parisians in the Country&lt;/i&gt; consists of, as the name implies, two stories of Parisians and their interactions and experiences in the French provinces.&lt;/p&gt;
+			&lt;p&gt;Gaudissart is a traveling salesman, well-known, well-respected, and universally considered to be one of the best of the travelers, hence his nickname of “Guadissart the Great.” As he enters a small town, he enlists the help of one of the notables of the town. The notable, who is not as impressed by Gaudissart’s sales pitch as Gaudissart believes, sends Gaudissart to another well-known man of the town, and the resulting encounter is one of &lt;a href="https://standardebooks.org/ebooks/honore-de-balzac"&gt;Balzac’s&lt;/a&gt; more humorous episodes.&lt;/p&gt;
+			&lt;p&gt;In “The Muse of the Department,” a “superior woman” in Sancerre is married to a man interested only in money. She has been pursued for years by three local men, all of whom she puts off, not feeling any are up to her standards. When a journalist from Paris makes his appearance and shows an interest in her that is avidly returned, the scene is set for someone’s comeuppance, but whose remains unclear for most of the story.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- scans -->
