@@ -71,6 +71,7 @@ p span.i3{
 /* end of poem/verse/song */
 
 /* custom */
+/* book within a book in Muse of the Department */
 blockquote.olympia{
 	margin-inline: 25%;
 	text-align: justify;
@@ -93,15 +94,6 @@ blockquote.right-page header span{
 	float: right;
 }
 
-[epub|type~="dedication"]{
-	margin-top: 3em;
-}
-
-[epub|type~="dedication"] header{
-	font-style: italic;
-	margin-bottom: 1em;
-}
-
 #the-muse-of-the-department blockquote:nth-of-type(11) > p:first-of-type,
 #the-muse-of-the-department blockquote:nth-of-type(13) > p:first-of-type,
 #the-muse-of-the-department blockquote:nth-of-type(14) > p:first-of-type,
@@ -117,5 +109,40 @@ blockquote.right-page header span{
 #the-muse-of-the-department blockquote:nth-last-of-type(3) p{
 	font-style: italic;
 	text-indent: 0;
+}
+/* end of book within a book */
+
+p[epub|type~="dedication"]{
+	font-style: italic;
+	text-align: center;
+}
+
+#gaudissart-the-great h3{
+	margin-bottom: 1em;
+}
+
+#dedication-2{
+	margin-top: 3em;
+}
+
+#dedication-2 header{
+	font-style: italic;
+}
+
+#dedication-2 header + *{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:poem"] header p{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] footer p{
+	text-align: right;
 }
 /* end of custom */
