@@ -7,6 +7,7 @@
 	</file>
 	<file path="gaudissart-the-great.xhtml">
 		<ignore code="t-007">
+			<line>69</line>
 			<reason>The name of the magazine is Children’s.</reason>
 		</ignore>
 	</file>
