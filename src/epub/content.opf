@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/honore-de-balzac/parisians-in-the-country/ellen-marriage</dc:identifier>
 		<dc:date>2025-06-04T20:21:14Z</dc:date>
@@ -41,12 +41,12 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Provincial Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
-		<dc:description id="description">Two stories of Parisians and their experiences with French provincials.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Two stories of Parisians and their experiences with French provincials.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Parisians in the Country&lt;/i&gt; consists of, as the name implies, two stories of Parisians and their interactions and experiences in the French provinces.&lt;/p&gt;
 			&lt;p&gt;Gaudissart is a traveling salesman, well-known, well-respected, and universally considered to be one of the best—hence his nickname of “Gaudissart the Great.” As he enters a small town, he enlists the help of one of the town’s notables. The notable, who’s not as impressed by Gaudissart’s sales pitch as Gaudissart thinks he is, sends Gaudissart to another well-known man of the town, and the resulting encounter is one of &lt;a href="https://standardebooks.org/ebooks/honore-de-balzac"&gt;Balzac’s&lt;/a&gt; more humorous episodes.&lt;/p&gt;
 			&lt;p&gt;In “The Muse of the Department,” a “superior woman” in Sancerre is married to a man interested only in money. She has been pursued for years by three local men, all of whom she puts off, not feeling any are up to her standards. When a journalist from Paris makes his appearance and shows an interest in her—which she avidly returns—the scene is set for someone’s comeuppance; but exactly whose remains unclear for most of the story.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<!-- scans -->
 		<!-- Gaudissart the Great -->
