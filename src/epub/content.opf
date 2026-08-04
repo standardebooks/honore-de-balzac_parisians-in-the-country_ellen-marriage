@@ -41,7 +41,7 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Provincial Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
-		<dc:abstract>Two stories of Parisians and their experiences with French provincials.</dc:abstract>
+		<meta property="schema:abstract">Two stories of Parisians and their experiences with French provincials.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Parisians in the Country&lt;/i&gt; consists of, as the name implies, two stories of Parisians and their interactions and experiences in the French provinces.&lt;/p&gt;
 			&lt;p&gt;Gaudissart is a traveling salesman, well-known, well-respected, and universally considered to be one of the best—hence his nickname of “Gaudissart the Great.” As he enters a small town, he enlists the help of one of the town’s notables. The notable, who’s not as impressed by Gaudissart’s sales pitch as Gaudissart thinks he is, sends Gaudissart to another well-known man of the town, and the resulting encounter is one of &lt;a href="https://standardebooks.org/ebooks/honore-de-balzac"&gt;Balzac’s&lt;/a&gt; more humorous episodes.&lt;/p&gt;
