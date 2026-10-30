@@ -74,7 +74,7 @@
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Eugène Lavieille</dc:contributor>
 		<meta property="file-as" refines="#artist">Lavieille, Eugène</meta>
-		<link href="https://en.wikipedia.org/wiki/Eugène_Lavieille" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Lavieille" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/no2023062983.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
@@ -86,6 +86,7 @@
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
